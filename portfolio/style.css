@@ -1,0 +1,121 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #eeeeee;
+    background-color: #1b1c1f;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 45px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #82c4ff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 12px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px 30px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+
+#skills {
+    background-color: #25282e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 25px;
+    margin: 0;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #82c4ff;
+    color: #101113;
+    padding: 8px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project {
+    background-color: #25282e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #101113;
+    padding: 25px 20px;
+}
+
+a {
+    color: #82c4ff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #b8ddff;
+    color: #101113;
+}
+
+.github-link img {
+    vertical-align: middle;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
